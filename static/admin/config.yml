@@ -21,7 +21,7 @@ collections:
 
   - name: "developer"
     label: "Developer"
-    folder: "src/pages/developers"
+    folder: "src/pages/developer"
     create: true
     slug: "{{slug}}"
     fields:
