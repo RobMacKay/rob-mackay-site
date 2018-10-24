@@ -19,13 +19,13 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
 
-  - name: "developers"
-    label: "Developers"
+  - name: "developer"
+    label: "Developer"
     folder: "src/pages/developers"
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "developers"}
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "developer"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text"}
